@@ -2,11 +2,11 @@
 <html>
 
 <head>
-	<title>안녕 잭!</title>
+	<title>안녕 ${friend.name}!</title>
 </head>
 <body>
 	<h1>Hello world!</h1>
 	
-	<h3>Hello, ${friend.name}</h3>
+	<h3>Hello, ${friend.name} ;-)</h3>
 </body>
 </html>

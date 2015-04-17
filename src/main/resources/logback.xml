@@ -41,7 +41,7 @@
 
 
 	<!-- 패키지별 로그 -->
-	<logger name="mail" additivity="false">
+	<logger name="com.jei.springstudy" additivity="false">
 		<level value="DEBUG" />
 		<appender-ref ref="STDOUT" />
 		<appender-ref ref="FILE" />
@@ -50,7 +50,7 @@
 
 	
 	<logger name="java.sql.Connection" additivity="false">
-		<level value="INFO" />
+		<level value="DEBUG" />
 		<appender-ref ref="STDOUT" />
 		<appender-ref ref="FILE" />
 	</logger>

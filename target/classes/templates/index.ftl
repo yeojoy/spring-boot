@@ -8,5 +8,6 @@
 	<h1>Hello world!</h1>
 	
 	<p><a href="/greeting?name=jack">say hello to jack</a></p>
+	<p><a href="/greeting?userId=yul">say hello to yul</a></p>
 </body>
 </html>

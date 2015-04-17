@@ -11,6 +11,9 @@ public class Friends {
 	private int id;
 	
 	@Column
+	private String userId;
+	
+	@Column
 	private String name;
 
 	public int getId() {
@@ -21,6 +24,14 @@ public class Friends {
 		this.id = id;
 	}
 
+	public String getUserId() {
+		return userId;
+	}
+	
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -31,7 +42,7 @@ public class Friends {
 
 	@Override
 	public String toString() {
-		return "Friends [id=" + id + ", name=" + name + "]";
+		return "Friends [id=" + id + ", userId=" + userId + ", name=" + name + "]";
 	}
 	
 	
